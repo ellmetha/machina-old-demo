@@ -42,20 +42,20 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "vanilla/static/js/**/*.{js,jsx}"
+      "demo/static/js/**/*.{js,jsx}"
     ],
     "coverageDirectory": "./coverage/",
     "moduleDirectories": [
       "node_modules",
       "bower_components",
-      "vanilla/static/js"
+      "demo/static/js"
     ],
     "testRegex": "(/tests/.*|\\.(react-test|spec|test))\\.(ts|tsx|js|jsx)$"
   },
   "scripts": {
     "bower": "bower",
     "gulp": "gulp",
-    "lint": "eslint --ext .js,.jsx vanilla/static/js/**/*",
+    "lint": "eslint --ext .js,.jsx demo/static/js/**/*",
     "test": "jest"
   }
 }
