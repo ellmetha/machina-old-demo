@@ -8,10 +8,10 @@ flake8 = "*"
 isort = "*"
 
 [packages]
-django = "*"
 django-machina = "*"
 django-ckeditor = "*"
 psycopg2 = "*"
 django-haystack = "*"
 django-recaptcha = "*"
-whoosh = "*"
+Django = "*"
+Whoosh = "*"

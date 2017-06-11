@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7e5ebabaf28a1373a14601824b300e99006c8775f8f8d30f9a84c1b4946978e1"
+            "sha256": "1bf9a2e6aa8b4e5841c068b680abda45a9f9af8e0056423fd355f70b86190e57"
         },
         "requires": {},
         "sources": [
@@ -13,7 +13,7 @@
     },
     "default": {
         "django": {
-            "version": "==1.11.1"
+            "version": "==1.11.2"
         },
         "django-ckeditor": {
             "version": "==5.2.2"
@@ -22,7 +22,7 @@
             "version": "==2.6.1"
         },
         "django-machina": {
-            "version": "==0.5.5"
+            "version": "==0.5.6"
         },
         "django-mptt": {
             "version": "==0.8.7"
@@ -54,7 +54,7 @@
     },
     "develop": {
         "django": {
-            "version": "==1.11.1"
+            "version": "==1.11.2"
         },
         "django-debug-toolbar": {
             "version": "==1.8"
@@ -63,7 +63,7 @@
             "version": "==3.3.0"
         },
         "isort": {
-            "version": "==4.2.5"
+            "version": "==4.2.15"
         },
         "mccabe": {
             "version": "==0.6.1"
