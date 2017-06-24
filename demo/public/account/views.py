@@ -57,7 +57,7 @@ class UserAccountParametersUpdateView(MenuItemMixin, UpdateView):
         return super(UserAccountParametersUpdateView, self).form_valid(form)
 
     def get_success_url(self):
-        return reverse('account-parameters')
+        return reverse('account:parameters')
 
 
 class UserPasswordUpdateView(MenuItemMixin, FormView):
@@ -84,7 +84,7 @@ class UserPasswordUpdateView(MenuItemMixin, FormView):
         return super(UserPasswordUpdateView, self).form_valid(form)
 
     def get_success_url(self):
-        return reverse('account-password')
+        return reverse('account:password')
 
 
 class UserDeleteView(MenuItemMixin, FormView):
